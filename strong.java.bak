@@ -1,0 +1,22 @@
+class strong 
+{
+	public static void main(String[] args) 
+	{
+		int num=145;
+		int temp=num;
+		int digit;
+		int sum=0;
+		int fact=1;
+		while(temp!=0){
+			digit=temp%10;
+			for(int i=1;i<=digit;i++){
+				fact=fact*i;
+			}
+			System.out.println(fact);
+			temp=temp/10;
+		}
+
+		
+		
+	}
+}
